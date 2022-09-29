@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Failed suite [MultiBrowserTesting_Parallel_Keyword]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test1(failed)(failed)">
+    <parameter name="Browsername" value="chrome"/>
+    <classes>
+      <class name="TestSuit.Ex5_MultiBrowserTestig">
+        <methods>
+          <include name="Chrome" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestSuit.Ex5_MultiBrowserTestig -->
+    </classes>
+  </test> <!-- Test1(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [MultiBrowserTesting_Parallel_Keyword]] -->

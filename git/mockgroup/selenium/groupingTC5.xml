@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="groupingTC_excludeKeyword">
+  <test thread-count="5" name="Test">
+  <groups>
+    <run>
+       <exclude name="login"/>
+       <exclude name="verification"/>
+    </run>
+  </groups>
+    <classes>
+      <class name="testNg.Ex10_GroupingTC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- groupingTC_excludeKeyword -->
